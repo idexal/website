@@ -6,6 +6,8 @@ A friendly version lives at **https://idexal.github.io/idexal-code/changelog.htm
 
 ## [Unreleased]
 
+## [1.3.0] — 2026-06-25
+
 ### Added
 - **Scheduled loops (GitHub Actions)** — a `loop` workflow runs idexal on a schedule to
   do a recurring task (e.g. a daily triage) with no human prompting, completing loop
@@ -90,7 +92,8 @@ A friendly version lives at **https://idexal.github.io/idexal-code/changelog.htm
 - First Idexal builds: official logos and app icons, the brand theme (blue + cyan), and
   the CLI + desktop release pipeline that publishes to both repositories.
 
-[Unreleased]: https://github.com/idexal/code/compare/v1.2.0...HEAD
+[Unreleased]: https://github.com/idexal/code/compare/v1.3.0...HEAD
+[1.3.0]: https://github.com/idexal/code/releases/tag/v1.3.0
 [1.2.0]: https://github.com/idexal/code/releases/tag/v1.2.0
 [1.1.0]: https://github.com/idexal/code/releases/tag/v1.1.0
 [1.0.6]: https://github.com/idexal/code/releases/tag/v1.0.6
