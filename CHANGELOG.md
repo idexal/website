@@ -6,6 +6,8 @@ A friendly version lives at **https://idexal.github.io/idexal-code/changelog.htm
 
 ## [Unreleased]
 
+## [1.4.0] — 2026-06-25
+
 ### Added
 - **Memory as a self-building knowledge graph** — agent memory now also reads a folder of
   interconnected `.idexal/memory/*.md` notes (`[[wikilinks]]`). Your project's knowledge
@@ -103,7 +105,8 @@ A friendly version lives at **https://idexal.github.io/idexal-code/changelog.htm
 - First Idexal builds: official logos and app icons, the brand theme (blue + cyan), and
   the CLI + desktop release pipeline that publishes to both repositories.
 
-[Unreleased]: https://github.com/idexal/code/compare/v1.3.0...HEAD
+[Unreleased]: https://github.com/idexal/code/compare/v1.4.0...HEAD
+[1.4.0]: https://github.com/idexal/code/releases/tag/v1.4.0
 [1.3.0]: https://github.com/idexal/code/releases/tag/v1.3.0
 [1.2.0]: https://github.com/idexal/code/releases/tag/v1.2.0
 [1.1.0]: https://github.com/idexal/code/releases/tag/v1.1.0
