@@ -1,0 +1,78 @@
+# Changelog
+
+All notable changes to **Idexal Code** are recorded here. The format follows
+[Keep a Changelog](https://keepachangelog.com/); versions follow [SemVer](https://semver.org/).
+A friendly version lives at **https://idexal.github.io/idexal-code/changelog.html**.
+
+## [Unreleased]
+
+### Added
+- **Bundled default skills** — every agent now ships with a curated starter set
+  (`tdd`, `code-review`, `systematic-debugging`) through a new embedded-skill source,
+  with no config and no network. Project skills in `.idexal/skills/` override them by name.
+
+## [1.1.0] — 2026-06-25
+
+### Added
+- **Agent memory** — durable, per-project memory injected into every agent and every
+  model, every turn, so the assistant remembers the project and your working style and
+  never forgets.
+  - A `memory` tool agents call to save durable facts, persisted in the app's local
+    SQLite database.
+  - Recall ranks semantically (cosine similarity) when embeddings are present, and
+    falls back to keyword then recency — so it always works.
+  - Hand-authored `.idexal/memory.md` (and a global `memory.md`) are injected too, and
+    you can edit them directly, like `AGENTS.md`.
+
+### Fixed
+- Repaired the public-API namespace (`Idexal`), which the rebrand had turned into an
+  invalid identifier.
+
+## [1.0.6] — 2026-06-25
+
+### Added
+- **Mission Control — parallel task launcher**: fan one goal out to N agents at once and
+  compare their results live on the board.
+
+## [1.0.5] — 2026-06-25
+
+### Changed
+- Home glow-up: a welcome tagline, an aurora glow, and a warmer empty state.
+
+## [1.0.4] — 2026-06-25
+
+### Added
+- **Mission Control**: a live board of every agent and session in the project (`⌘⇧M`).
+
+## [1.0.3] — 2026-06-25
+
+### Fixed
+- Desktop installer finish-launch error (removed the Start-menu subfolder mismatch).
+
+## [1.0.2] — 2026-06-25
+
+### Added
+- Advanced, branded Windows installer — wizard, license step, custom install directory,
+  and shortcuts.
+
+## [0.2.0] — 2026-06-25
+
+### Changed
+- **Radical rebrand: opencode → Idexal Code.** Zero "opencode" residue. The Idexal
+  gateway (`api.idexal.com`) is the default provider with automatic model discovery, and
+  unused providers were removed.
+
+## [0.1.0 – 0.1.5] — 2026-06-24 → 2026-06-25
+
+### Added
+- First Idexal builds: official logos and app icons, the brand theme (blue + cyan), and
+  the CLI + desktop release pipeline that publishes to both repositories.
+
+[Unreleased]: https://github.com/idexal/code/compare/v1.1.0...HEAD
+[1.1.0]: https://github.com/idexal/code/releases/tag/v1.1.0
+[1.0.6]: https://github.com/idexal/code/releases/tag/v1.0.6
+[1.0.5]: https://github.com/idexal/code/releases/tag/v1.0.5
+[1.0.4]: https://github.com/idexal/code/releases/tag/v1.0.4
+[1.0.3]: https://github.com/idexal/code/releases/tag/v1.0.3
+[1.0.2]: https://github.com/idexal/code/releases/tag/v1.0.2
+[0.2.0]: https://github.com/idexal/code/releases/tag/v0.2.0
