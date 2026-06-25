@@ -7,6 +7,11 @@ A friendly version lives at **https://idexal.github.io/idexal-code/changelog.htm
 ## [Unreleased]
 
 ### Added
+- **Memory as a self-building knowledge graph** — agent memory now also reads a folder of
+  interconnected `.idexal/memory/*.md` notes (`[[wikilinks]]`). Your project's knowledge
+  builds itself into a browsable graph (open it in Obsidian), syncs through git, and is
+  recalled into every agent. Self-hosted, open, no subscriptions. See
+  `docs/memory-knowledge-graph.md`.
 - **Crawl4AI integration guide** — connect the free, self-hosted
   [Crawl4AI](https://github.com/unclecode/crawl4ai) web crawler as an MCP server for clean
   web → Markdown/JSON scraping (JS/SPA pages, structured extraction, RAG ingestion). No
