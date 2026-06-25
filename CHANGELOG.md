@@ -11,6 +11,9 @@ A friendly version lives at **https://idexal.github.io/idexal-code/changelog.htm
   images) to clean Markdown that flows into the knowledge graph. The file-side complement to
   Crawl4AI's web scraping; OCR can run on your own Idexal gateway. See
   `docs/integrations/markitdown.md`.
+- **`research` skill** — ties the ingestion tools together: gather from the web (Crawl4AI) or
+  files (MarkItDown), distil, verify, and save as linked notes in the knowledge graph. Eight
+  bundled default skills now.
 
 ## [1.4.0] — 2026-06-25
 
