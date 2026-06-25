@@ -6,6 +6,12 @@ A friendly version lives at **https://idexal.github.io/idexal-code/changelog.htm
 
 ## [Unreleased]
 
+### Added
+- **Scheduled loops (GitHub Actions)** — a `loop` workflow runs idexal on a schedule to
+  do a recurring task (e.g. a daily triage) with no human prompting, completing loop
+  engineering's autonomous-loop primitive. Safe by default: a no-op until you add the
+  `IDEXAL_API_KEY` secret. Also a copy-paste template for any repo.
+
 ## [1.2.0] — 2026-06-25
 
 ### Added
