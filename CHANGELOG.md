@@ -6,6 +6,12 @@ A friendly version lives at **https://idexal.github.io/idexal-code/changelog.htm
 
 ## [Unreleased]
 
+### Added
+- **Crawl4AI integration guide** — connect the free, self-hosted
+  [Crawl4AI](https://github.com/unclecode/crawl4ai) web crawler as an MCP server for clean
+  web → Markdown/JSON scraping (JS/SPA pages, structured extraction, RAG ingestion). No
+  Python in Idexal — it's a remote MCP server. See `docs/integrations/crawl4ai.md`.
+
 ## [1.3.0] — 2026-06-25
 
 ### Added
