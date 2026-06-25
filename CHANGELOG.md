@@ -6,6 +6,8 @@ A friendly version lives at **https://idexal.github.io/idexal-code/changelog.htm
 
 ## [Unreleased]
 
+## [1.2.0] — 2026-06-25
+
 ### Added
 - **Bundled default skills** — every agent now ships with a curated starter set
   (`tdd`, `code-review`, `systematic-debugging`, `loop`) through a new embedded-skill
@@ -74,7 +76,8 @@ A friendly version lives at **https://idexal.github.io/idexal-code/changelog.htm
 - First Idexal builds: official logos and app icons, the brand theme (blue + cyan), and
   the CLI + desktop release pipeline that publishes to both repositories.
 
-[Unreleased]: https://github.com/idexal/code/compare/v1.1.0...HEAD
+[Unreleased]: https://github.com/idexal/code/compare/v1.2.0...HEAD
+[1.2.0]: https://github.com/idexal/code/releases/tag/v1.2.0
 [1.1.0]: https://github.com/idexal/code/releases/tag/v1.1.0
 [1.0.6]: https://github.com/idexal/code/releases/tag/v1.0.6
 [1.0.5]: https://github.com/idexal/code/releases/tag/v1.0.5
