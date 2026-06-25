@@ -11,6 +11,9 @@ A friendly version lives at **https://idexal.github.io/idexal-code/changelog.htm
   do a recurring task (e.g. a daily triage) with no human prompting, completing loop
   engineering's autonomous-loop primitive. Safe by default: a no-op until you add the
   `IDEXAL_API_KEY` secret. Also a copy-paste template for any repo.
+- **`verify` skill (maker/checker)** — a bundled skill for independent, adversarial
+  verification: confirm a result is actually correct by *executing* checks, not by reading.
+  The "checker" the loop's verify step leans on; distilled from the result-verifier role.
 
 ## [1.2.0] — 2026-06-25
 
