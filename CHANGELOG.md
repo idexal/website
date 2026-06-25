@@ -14,6 +14,10 @@ A friendly version lives at **https://idexal.github.io/idexal-code/changelog.htm
 - **`research` skill** — ties the ingestion tools together: gather from the web (Crawl4AI) or
   files (MarkItDown), distil, verify, and save as linked notes in the knowledge graph. Eight
   bundled default skills now.
+- **Automatic project profile** — Idexal now auto-detects each project's stack (language,
+  framework, package manager) from its marker files and injects it into every agent, so the
+  agent adapts per project with zero setup. The foundation for automatic per-project
+  sub-agent distribution.
 
 ## [1.4.0] — 2026-06-25
 
