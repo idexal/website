@@ -13,6 +13,9 @@ A friendly version lives at **https://idexal.github.io/idexal-code/changelog.htm
 - **Loop engineering** — the bundled `loop` skill gives agents a verified-loop discipline
   (discover → record state → implement → verify → gate), built on agent memory (state) and
   skills. You design the loop once instead of prompting every micro-step.
+- **Mission Control — Loop mode** — run a goal as an autonomous verified loop. The runner
+  drives one session, re-prompting it to keep working and self-checking until the agent
+  reports "LOOP DONE" or the iteration cap is reached; progress and state persist in memory.
 
 ## [1.1.0] — 2026-06-25
 
