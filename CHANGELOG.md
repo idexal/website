@@ -18,6 +18,9 @@ A friendly version lives at **https://idexal.github.io/idexal-code/changelog.htm
   framework, package manager) from its marker files and injects it into every agent, so the
   agent adapts per project with zero setup. The foundation for automatic per-project
   sub-agent distribution.
+- **Model fallback (foundation)** — a `fallback` config option (an ordered list of backup
+  models) plus the tested selection logic, so a task can fall back to another model instead
+  of stalling when the primary errors. Wiring it into the request flow and a Settings UI are next.
 
 ## [1.4.0] — 2026-06-25
 
