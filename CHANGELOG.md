@@ -8,8 +8,11 @@ A friendly version lives at **https://idexal.github.io/idexal-code/changelog.htm
 
 ### Added
 - **Bundled default skills** — every agent now ships with a curated starter set
-  (`tdd`, `code-review`, `systematic-debugging`) through a new embedded-skill source,
-  with no config and no network. Project skills in `.idexal/skills/` override them by name.
+  (`tdd`, `code-review`, `systematic-debugging`, `loop`) through a new embedded-skill
+  source, with no config and no network. Project skills in `.idexal/skills/` override them by name.
+- **Loop engineering** — the bundled `loop` skill gives agents a verified-loop discipline
+  (discover → record state → implement → verify → gate), built on agent memory (state) and
+  skills. You design the loop once instead of prompting every micro-step.
 
 ## [1.1.0] — 2026-06-25
 
