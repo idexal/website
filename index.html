@@ -101,6 +101,10 @@
   .plat{display:inline-flex;align-items:center;gap:9px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 20px;font-size:14px;font-weight:500;transition:.18s}
   .plat:hover{border-color:rgba(59,130,246,.35);background:var(--card-2)}
 
+  .gateway-models{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;max-width:760px;margin:0 auto}
+  .gmodel{font-family:'JetBrains Mono',monospace;font-size:13px;color:var(--muted);background:var(--card);border:1px solid var(--line);border-radius:999px;padding:8px 16px;transition:.18s}
+  .gmodel:hover{border-color:rgba(59,130,246,.4);color:var(--ink);transform:translateY(-2px)}
+  .gmodel.more{color:var(--blue-2);border-color:rgba(59,130,246,.3);background:rgba(59,130,246,.08)}
   footer{border-top:1px solid var(--line);padding:40px 0;color:var(--faint);font-size:14px}
   .foot{display:flex;align-items:center;gap:20px;flex-wrap:wrap}
   .foot a:hover{color:var(--ink)}
@@ -178,6 +182,22 @@
         <div class="feat"><div class="ico">⌨️</div><h3>Inline autocomplete</h3><p>Copilot-style ghost text drawn from your history. Tab to accept, Esc to dismiss — momentum without the menus.</p></div>
         <div class="feat"><div class="ico">🖥️</div><h3>Desktop &amp; CLI</h3><p>A refined desktop app and a fast terminal UI share the same local agent server — your sessions stay on your machine.</p></div>
         <div class="feat"><div class="ico">🎨</div><h3>Aurora design</h3><p>A cohesive dark theme: glass surfaces, gradient accents, and a living backdrop that makes long sessions a pleasure.</p></div>
+      </div>
+    </section>
+
+    <section id="gateway">
+      <div class="eyebrow">Your gateway, your rules</div>
+      <h2>One endpoint. Every model.</h2>
+      <p class="lead">Point Idexal at your own gateway and it discovers every model automatically. Bring your keys — route paid and open models exactly how you want.</p>
+      <div class="gateway-models">
+        <span class="gmodel">claude-opus-4.8</span>
+        <span class="gmodel">claude-sonnet-4.6</span>
+        <span class="gmodel">gpt-5.5</span>
+        <span class="gmodel">gemini-3.5</span>
+        <span class="gmodel">llama-4</span>
+        <span class="gmodel">deepseek-v3</span>
+        <span class="gmodel">qwen-3</span>
+        <span class="gmodel more">+ 750 more</span>
       </div>
     </section>
 
