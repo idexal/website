@@ -6,6 +6,8 @@ A friendly version lives at **https://idexal.github.io/idexal-code/changelog.htm
 
 ## [Unreleased]
 
+## [1.5.0] — 2026-06-25
+
 ### Added
 - **MarkItDown integration guide** — convert local documents (PDF, Word, PowerPoint, Excel,
   images) to clean Markdown that flows into the knowledge graph. The file-side complement to
@@ -121,7 +123,8 @@ A friendly version lives at **https://idexal.github.io/idexal-code/changelog.htm
 - First Idexal builds: official logos and app icons, the brand theme (blue + cyan), and
   the CLI + desktop release pipeline that publishes to both repositories.
 
-[Unreleased]: https://github.com/idexal/code/compare/v1.4.0...HEAD
+[Unreleased]: https://github.com/idexal/code/compare/v1.5.0...HEAD
+[1.5.0]: https://github.com/idexal/code/releases/tag/v1.5.0
 [1.4.0]: https://github.com/idexal/code/releases/tag/v1.4.0
 [1.3.0]: https://github.com/idexal/code/releases/tag/v1.3.0
 [1.2.0]: https://github.com/idexal/code/releases/tag/v1.2.0
