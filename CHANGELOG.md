@@ -6,6 +6,12 @@ A friendly version lives at **https://idexal.github.io/idexal-code/changelog.htm
 
 ## [Unreleased]
 
+### Added
+- **MarkItDown integration guide** — convert local documents (PDF, Word, PowerPoint, Excel,
+  images) to clean Markdown that flows into the knowledge graph. The file-side complement to
+  Crawl4AI's web scraping; OCR can run on your own Idexal gateway. See
+  `docs/integrations/markitdown.md`.
+
 ## [1.4.0] — 2026-06-25
 
 ### Added
