@@ -14,6 +14,11 @@ A friendly version lives at **https://idexal.github.io/idexal-code/changelog.htm
 - **`verify` skill (maker/checker)** — a bundled skill for independent, adversarial
   verification: confirm a result is actually correct by *executing* checks, not by reading.
   The "checker" the loop's verify step leans on; distilled from the result-verifier role.
+- **More bundled skills** — `security-review` (red-team find + blue-team confirm) and
+  `codebase-exploration`, distilled from the idexal/skills roles. Seven defaults now.
+- **`/loop` command** — `/loop <goal>` runs a goal through the verified-loop discipline
+  (it pulls in the `loop` + `verify` skills). A third loop trigger alongside Mission
+  Control's Loop mode and the scheduled Actions loop.
 
 ## [1.2.0] — 2026-06-25
 
